@@ -19,18 +19,18 @@
 }
 
 .previous:hover, .next:hover {
-    background-color: darkgray;
+    background-color: rgb(15, 15, 15);
 }
 
 .dot {
     height: 25px;
     width: 25px;
-    background-color: grey;
+    background-color: darkgray;
     border-radius: 50%;
     display: inline-block;
 }
 
-.active, dot:hover {
+.active, .dot:hover {
     cursor: pointer;
-    background-color: darkgray;
+    background-color: gray;
 }
