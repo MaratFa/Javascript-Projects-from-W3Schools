@@ -14,6 +14,10 @@
     display: none;
 }
 
+img {
+    vertical-align: middle;
+}
+
 /* Next and previous buttons */
 .prev, .next {
     cursor: pointer;
@@ -38,7 +42,7 @@
 
 /* On hover, add a black black background color with a little bit see-through */
 .prev:hover, .next:hover {
-    background-color: rgba (0,0,0,0.8);
+    background-color: rgba(0,0,0,0.8);
 }
 
 /* Caption text */
