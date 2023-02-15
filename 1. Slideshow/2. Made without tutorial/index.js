@@ -1,8 +1,13 @@
+let n = 1;
+let slideIndex = n;
+
+slidesFunction(slideIndex)
+
 // Slides function
 function slidesFunction() {
     let slide = getElementsByClassName("slide");
 }
-slidesFunction()
+
 
 // Previous and next buttons function
 function previous() {}
