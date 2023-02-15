@@ -1,26 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
-.slide {
-    display: none;
-}
-
-.slideIndex {
-
-}
-
-.caption {
-
-}
-
-.previous, .next {
-    cursor: pointer;
-}
-
-.previous:hover, .next:hover {
-    background-color: darkgray;
-}
 
 .dot {
     height: 25px;
@@ -28,9 +5,4 @@
     background-color: grey;
     border-radius: 50%;
     display: inline-block;
-}
-
-.active, dot:hover {
-    cursor: pointer;
-    background-color: darkgray;
 }
