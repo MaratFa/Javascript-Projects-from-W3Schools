@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+.slideContainer {
+
+}
+
+.slide {
+
+}
+
+.dot {
+    
+}
+
+.active, dot:hover {
+    background-color: darkgray;
+}
