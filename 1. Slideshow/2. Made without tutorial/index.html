@@ -6,21 +6,30 @@
         <script src="index.js"></script>
     </head>
     <body>
-        <div class="slideContainer">    
+        <div class="slidesContainer">   
+
             <!-- Slides -->         
-            <div class="slide fade" onclick="myFunction(1)">
+            <div class="slide fade">
                 <img src="img1.jpg">
+                <div class="caption">Caption Text</div>
             </div>
-            <div class="slide fade" onclick="myFunction(2)">
+            <div class="slide fade">
                 <img src="img2.jpg">
+                <div class="caption">Caption Two</div>
             </div>
-            <div class="slide fade" onclick="myFunction(3)">
+            <div class="slide fade">
                 <img src="img3.jpg">
+                <div class="caption">Caption Three</div>
             </div>
-            <div class="slide fade" onclick="myFunction(4)">
+            <div class="slide fade">
                 <img src="img4.jpg">
+                <div class="caption">Caption Four</div>
             </div>
+
             <!-- Previous and next buttons -->
+            <span class="previous" onclick="previous()"></span>
+            <span class="next" onclick="next()"></span>
+            <br>
 
             <!-- Dots -->
             <span class="dot" onclick="myFunction(1)"></span>
