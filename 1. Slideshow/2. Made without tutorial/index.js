@@ -1,20 +1,14 @@
+// Slides function
+function slidesFunction() {
+    let slide = getElementsByClassName("slide");
+}
+slidesFunction()
 
 // Previous and next buttons function
-function previous {}
-function next {}
+function previous() {}
+function next() {}
 
-
-
-
-
-
-
-
-
-
-let n = 1;
-
-function myFunction(n) {
-    let slide = getElementsByClassName("slide");
+// Dot buttons function
+function dotFunction() {
     let dots = getElementsByClassName("dot");
 }

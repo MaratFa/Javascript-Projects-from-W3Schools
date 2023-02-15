@@ -2,15 +2,15 @@
     box-sizing: border-box;
 }
 
-.slidesContainer {
-
-}
-
 .slide {
     display: none;
 }
 
 .previous, .next {
+    cursor: pointer;
+}
+
+.previous:hover, .next:hover {
     background-color: darkgray;
 }
 
