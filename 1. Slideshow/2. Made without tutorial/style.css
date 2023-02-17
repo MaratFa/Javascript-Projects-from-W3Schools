@@ -16,13 +16,13 @@
 */
 
 .slideIndex {
-
-}
-
-.caption {
     position: absolute;
     top: 8px;
     left: 16px;
+}
+
+.caption {
+
 }
 
 .previous, .next {
