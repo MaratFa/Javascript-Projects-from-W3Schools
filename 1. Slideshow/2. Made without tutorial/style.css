@@ -2,6 +2,13 @@
     box-sizing: border-box;
 }
 
+.container {
+    position: relative;
+    text-align: center;
+    color: darkgray;
+}
+
+
 /* 
 .slide {
     display: none;
@@ -13,7 +20,9 @@
 }
 
 .caption {
-
+    position: absolute;
+    top: 8px;
+    left: 16px;
 }
 
 .previous, .next {
