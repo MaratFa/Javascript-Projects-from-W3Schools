@@ -2,18 +2,12 @@
     box-sizing: border-box;
 }
 
-.container {
-    width: 100%;
-    position: relative;
-    text-align: center;
-    color: darkgray;
+[data-component="slideshow"].slide {
+    display: none;
 }
 
-.slideIndex {
-    position: absolute;
-    top: 8px;
-    left: 14%;
-    color: rgb(228, 228, 228);
+[data-component="slideshow"].slide.active {
+    display: block;
 }
 
 .caption {

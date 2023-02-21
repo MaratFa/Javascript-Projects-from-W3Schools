@@ -1,42 +1,43 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
         <title>Slideshow</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
         <script src="index.js"></script>
     </head>
-    <body>
+    <body> 
 
-        <!-- Slides -->    
-        <div class="container">         
-            <div class="slide">
-                <div class="slideIndex" >1 / 4</div>
+        <!--  Slideshow -->
+        <div id="slideshow" data-component="slideshow">         
+            <div role="list">
+                <div class="slide" >1 / 4</div>
                 <img src="img1.jpg">
                 <div class="caption">Caption Text</div>
             </div>
-            <div class="slide" style="display: none">
-                <div class="slideIndex">2 / 4</div>
-                <img src="img2.jpg">
-                <div class="caption">Caption Two</div>
+            <div role="list">
+                <div class="slide" >1 / 4</div>
+                <img src="img1.jpg">
+                <div class="caption">Caption Text</div>
             </div>
-            <div class="slide" style="display: none">
-                <div class="slideIndex">3 / 4</div>
-                <img src="img3.jpg">
-                <div class="caption">Caption Three</div>
+            <div role="list">
+                <div class="slide" >1 / 4</div>
+                <img src="img1.jpg">
+                <div class="caption">Caption Text</div>
             </div>
-            <div class="slide"  style="display: none">
-                <div class="slideIndex">4 / 4</div>
-                <img src="img4.jpg">
-                <div class="caption">Caption Four</div>
+            <div role="list">
+                <div class="slide" >1 / 4</div>
+                <img src="img1.jpg">
+                <div class="caption">Caption Text</div>
             </div>
-
-            <!-- Previous and next buttons -->
-            <div>
-                <span class="previous" onclick="previous()">❮</span>
-                <span class="next" onclick="next()">❭</span>                
-            </div>
-        </div>        
+        </div>            
+                  
+        <!-- Previous and next buttons -->
+        <div>
+            <span class="previous" onclick="previous()">&#8249</span>
+            <span class="next" onclick="next()">&#8250</span>                
+        </div>
 
         <!-- Dots -->
         <div style="text-align: center">             
