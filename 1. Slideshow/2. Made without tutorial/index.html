@@ -8,43 +8,41 @@
         <script src="index.js"></script>
     </head>
     <body> 
+        <div class="carousel-container">
 
-        <!--  Slideshow -->
-        <div id="slideshow" data-component="slideshow">         
-            <div role="list">
-                <div class="slide" >1 / 4</div>
-                <img src="img1.jpg">
-                <div class="caption">Caption Text</div>
+            <!-- Previous and next buttons -->
+            <div class="navigation">
+                <div class="prev nav-btn"><</div>
+                <div class="next nav-btn">></div>                
             </div>
-            <div role="list">
-                <div class="slide" >1 / 4</div>
-                <img src="img1.jpg">
-                <div class="caption">Caption Text</div>
-            </div>
-            <div role="list">
-                <div class="slide" >1 / 4</div>
-                <img src="img1.jpg">
-                <div class="caption">Caption Text</div>
-            </div>
-            <div role="list">
-                <div class="slide" >1 / 4</div>
-                <img src="img1.jpg">
-                <div class="caption">Caption Text</div>
-            </div>
-        </div>            
-                  
-        <!-- Previous and next buttons -->
-        <div>
-            <span class="previous" onclick="previous()">&#8249</span>
-            <span class="next" onclick="next()">&#8250</span>                
-        </div>
 
+            <!-- Slides -->
+            <div class="carousel">
+                <div class="item main">1 / 4
+                    <img src="img1.jpg">
+                    <div class="caption">Caption Text</div>
+                </div>
+                <div class="item">2 / 4
+                    <img src="img2.jpg">
+                    <div class="caption">Caption Two</div>
+                </div>
+                <div class="item">3 / 4
+                    <img src="img3.jpg">
+                    <div class="caption">Caption Three</div>
+                </div>
+                <div class="item">4 / 4
+                    <img src="img4.jpg">
+                    <div class="caption">Caption Four</div>
+                </div>                
+            </div>
+        </div>     
+        
         <!-- Dots -->
         <div style="text-align: center">             
             <span class="dot" onclick="dotFunction(1)"></span>
             <span class="dot" onclick="dotFunction(2)"></span>
             <span class="dot" onclick="dotFunction(3)"></span>
             <span class="dot" onclick="dotFunction(4)"></span>
-        </div>
+        </div>       
     </body>
-</html>
+    </html>
