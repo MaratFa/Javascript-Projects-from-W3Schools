@@ -17,19 +17,23 @@
 
             <!-- Slides -->
             <div class="carousel">
-                <div class="item main">1 / 4
+                <div class="image main">
+                    <div class="slideIndex">1 / 4</div>
                     <img src="img1.jpg">
                     <div class="caption">Caption Text</div>
                 </div>
-                <div class="item">2 / 4
+                <div class="image">
+                    <div class="slideIndex">2 / 4</div>
                     <img src="img2.jpg">
                     <div class="caption">Caption Two</div>
                 </div>
-                <div class="item">3 / 4
+                <div class="image">
+                    <div class="slideIndex">3 / 4</div>
                     <img src="img3.jpg">
                     <div class="caption">Caption Three</div>
                 </div>
-                <div class="item">4 / 4
+                <div class="image">
+                    <div class="slideIndex">4 / 4</div>
                     <img src="img4.jpg">
                     <div class="caption">Caption Four</div>
                 </div>                
@@ -37,12 +41,13 @@
         </div>     
         
         <!-- Dots -->
-        <div style="text-align: center">             
-            <span class="dot" onclick="dotFunction(1)"></span>
-            <span class="dot" onclick="dotFunction(2)"></span>
-            <span class="dot" onclick="dotFunction(3)"></span>
-            <span class="dot" onclick="dotFunction(4)"></span>
-        </div> 
-        <script src="index.js"></script>
+        <div class="dots" style="text-align: center">             
+            <span class="dot" onclick="displayImage(0)"></span>
+            <span class="dot" onclick="displayImage(1)"></span>
+            <span class="dot" onclick="displayImage(2)"></span>
+            <span class="dot" onclick="displayImage(3)"></span>
+        </div>
+
+        <script src="index.js"></script>     
     </body>
     </html>
