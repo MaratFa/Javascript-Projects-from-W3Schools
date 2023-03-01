@@ -1,4 +1,4 @@
-// Function for buttons
+// Function for slides
 const prev = document.querySelector(".prev");
 const next = document.querySelector(".next");
 const images = document.querySelector(".carousel").children;
