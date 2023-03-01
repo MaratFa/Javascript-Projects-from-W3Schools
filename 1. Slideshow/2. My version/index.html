@@ -3,19 +3,21 @@
     <head>
         <meta charset="UTF-8">
         <title>Slideshow</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
     </head>
-    <body> 
+    <body onload="displayImage(0)"> 
+
+        <!-- Slideshow -->
         <div class="carousel-container">
 
             <!-- Previous and next buttons -->
             <div class="navigation">
-                <div class="prev nav-btn"><</div>
-                <div class="next nav-btn">></div>                
+                <div class="prev nav-btn">&#10094</div>
+                <div class="next nav-btn">&#10095</div>                
             </div>
 
-            <!-- Slides -->
+            <!-- Slide indexes, Images, Captions -->
             <div class="carousel">
                 <div class="image main">
                     <div class="slideIndex">1 / 4</div>
@@ -41,7 +43,7 @@
         </div>     
         
         <!-- Dots -->
-        <div class="dots" style="text-align: center">             
+        <div class="dots">             
             <span class="dot" onclick="displayImage(0)"></span>
             <span class="dot" onclick="displayImage(1)"></span>
             <span class="dot" onclick="displayImage(2)"></span>
